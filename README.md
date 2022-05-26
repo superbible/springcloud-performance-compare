@@ -13,7 +13,7 @@ Steps:
 
 5. Swich to different branch to test correspoding version of Spring Cloud, such as Hoxton, 2020, 2021, etc.
 
-Here is my test result:
+Here is my test result (Intel I5 4 cores, 16G RAM):
 2021.0.2: 2,312.139
 2020.0.5: 2,321.802
 Hoxton.SR11: 5,844.535
