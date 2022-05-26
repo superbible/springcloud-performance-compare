@@ -9,8 +9,8 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
-        <spring-boot-dependencies.version>2.3.12.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud.version>Hoxton.SR11</spring-cloud.version>
+        <spring-boot-dependencies.version>2.6.7</spring-boot-dependencies.version>
+        <spring-cloud.version>2021.0.2</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
@@ -42,14 +42,14 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-loadbalancer</artifactId>-->
+<!--            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>-->
 <!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-loadbalancer</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
